@@ -1,0 +1,10 @@
+services:
+  rinha-test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rinha-test
+    network_mode: host
+    environment:
+      - GIT_USER=${GIT_USER}
+      - GIT_TOKEN=${GIT_TOKEN}
