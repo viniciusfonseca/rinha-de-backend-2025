@@ -18,7 +18,7 @@ Nessa terceira edição da Rinha de Backend, o desafio é intermediar (integrar)
 
 *O código fonte do **Payment Processor** está disponível [aqui](https://github.com/zanfranceschi/rinha-de-backend-2025-payment-processor).*
 
-![alt text](./misc/imgs/arq-alto-nivel.png)
+![arquitetura de alto nível da rinha](./misc/imgs/arq-alto-nivel.png)
 
 Durante o teste, os dois serviços irão sofrer instabilidades esporádicas (surpresas) nos endpoints responsáveis por receber as requisições de processamento de pagamentos. Há dois tipos de instabilidade:
 1. Tempos de resposta aumentados: o endpoint de pagamentos demora a responder – desde muito a apenas um pouco lento.
